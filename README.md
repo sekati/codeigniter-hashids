@@ -1,5 +1,5 @@
 
-Hashids Helper Spark for CodeIgniter
+Hashids Spark for CodeIgniter
 ============================
 
 A [CodeIgniter](http://codeigniter.com) [Spark](http://getsparks.org/) for implementing [Hashids](http://www.hashids.org) to generate hashes (like YouTube or Bitly) from numbers to obfuscate database IDs.

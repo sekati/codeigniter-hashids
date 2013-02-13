@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Sekati CodeIgniter Hashids Helper
+ * Sekati CodeIgniter Hashids
  *
  * @package		Sekati
  * @author		Jason M Horwitz
