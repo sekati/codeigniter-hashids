@@ -8,14 +8,14 @@
  * @copyright   Copyright (c) 2013, Sekati LLC.
  * @license     http://www.opensource.org/licenses/mit-license.php
  * @link        http://sekati.com
- * @version     v1.0.1
+ * @version     v1.0.2
  * @filesource
  *
  * @usage       $autoload['config'] = array('hashids');
  *              $autoload['helper'] = array('hashids');
  */
 
-define('HASHIDS_VERSION', '1.0.1');
+define('HASHIDS_VERSION', '1.0.2');
 
 require_once FCPATH . 'sparks/sk-hashids/' . HASHIDS_VERSION . '/vendor/hashids.php';
 
@@ -52,7 +52,7 @@ if( ! function_exists('hashids_encrypt'))
     {
         $CI =& get_instance();
 
-        if( !is_array($input) ) $input = array( $input );
+        if( !is_array($input) ) $input = array( intval($input) );
 
         $hashids = hashids_createobject($salt, $min_hash_length, $alphabet);
         return call_user_func_array( array($hashids, "encrypt"), $input );

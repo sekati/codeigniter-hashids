@@ -8,7 +8,7 @@
  * @copyright	Copyright (c) 2013, Sekati LLC.
  * @license		http://www.opensource.org/licenses/mit-license.php
  * @link		http://sekati.com
- * @version		v1.0.1
+ * @version		v1.0.2
  */
 
 // Custom value that will make your hashes unique to your salt.
