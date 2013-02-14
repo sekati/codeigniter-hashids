@@ -9,7 +9,7 @@ Installation
 -------------------------------------
 
 1. Install the spark: `php tools/spark install sk-hashids` - or, if not using Spark package management, copy `hashids_helper.php` to your `application/helpers` folder & `config/hashids.php` to your `application/config` folder.
-2. Load the spark: `$this->load->spark('sk-hashids/1.0.3');` - or, optionally autoload the spark in `application/config/autoload.php`: $autoload['sparks'] = array('sk-hashids/1.0.3');`.
+2. Load the spark: `$this->load->spark('sk-hashids/1.0.4');` - or, optionally autoload the spark in `application/config/autoload.php`: $autoload['sparks'] = array('sk-hashids/1.0.4');`.
 3. Employ helper functions as needed.
 
 

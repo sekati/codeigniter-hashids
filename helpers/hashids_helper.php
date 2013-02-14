@@ -8,14 +8,14 @@
  * @copyright   Copyright (c) 2013, Sekati LLC.
  * @license     http://www.opensource.org/licenses/mit-license.php
  * @link        http://sekati.com
- * @version     v1.0.3
+ * @version     v1.0.4
  * @filesource
  *
  * @usage       $autoload['config'] = array('hashids');
  *              $autoload['helper'] = array('hashids');
  */
 
-define('HASHIDS_VERSION', '1.0.3');
+define('HASHIDS_VERSION', '1.0.4');
 
 require_once FCPATH . 'sparks/sk-hashids/' . HASHIDS_VERSION . '/vendor/Hashids.php';
 
