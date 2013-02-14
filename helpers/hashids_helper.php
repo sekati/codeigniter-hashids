@@ -8,16 +8,16 @@
  * @copyright   Copyright (c) 2013, Sekati LLC.
  * @license     http://www.opensource.org/licenses/mit-license.php
  * @link        http://sekati.com
- * @version     v1.0.0
+ * @version     v1.0.1
  * @filesource
  *
  * @usage       $autoload['config'] = array('hashids');
  *              $autoload['helper'] = array('hashids');
  */
 
-define('HASHIDS_VERSION', '1.0.0');
+define('HASHIDS_VERSION', '1.0.1');
 
-require_once FCPATH . 'sparks/hashids/' . HASHIDS_VERSION . '/vendor/hashids.php';
+require_once FCPATH . 'sparks/sk-hashids/' . HASHIDS_VERSION . '/vendor/hashids.php';
 
 /**
  * Create the hashid object using config settings unless override values are passed thru.
