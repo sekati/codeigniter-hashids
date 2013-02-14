@@ -17,7 +17,7 @@
 
 define('HASHIDS_VERSION', '1.0.3');
 
-require_once FCPATH . 'sparks/sk-hashids/' . HASHIDS_VERSION . '/vendor/hashids.php';
+require_once FCPATH . 'sparks/sk-hashids/' . HASHIDS_VERSION . '/vendor/Hashids.php';
 
 /**
  * Create the hashid object using config settings unless override values are passed thru.
