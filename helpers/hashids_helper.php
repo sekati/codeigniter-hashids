@@ -32,8 +32,8 @@ if( ! function_exists('hashids_createobject'))
         $CI =& get_instance();
 
         $salt               = (!$salt_ov) ? $CI->config->item('hashids_salt') : $salt_ov;
-        $min_hash_length    = (!$min_hash_length_ov) ? $CI->config->item('hashids_salt') : $min_hash_length_ov;
-        $alphabet           = (!$alphabet_ov) ? $CI->config->item('hashids_salt') : $alphabet_ov;
+        $min_hash_length    = (!$min_hash_length_ov) ? $CI->config->item('hashids_min_hash_length') : $min_hash_length_ov;
+        $alphabet           = (!$alphabet_ov) ? $CI->config->item('hashids_alphabet') : $alphabet_ov;
 
         return new Hashids\Hashids($salt, $min_hash_length, $alphabet);
     }
